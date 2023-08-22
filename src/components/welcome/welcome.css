@@ -1,0 +1,46 @@
+.welcome{
+    padding:3rem 6rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.welcome-text h1 {
+    color: #8f9bae;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 85px;
+}
+.welcome-text h3 {
+    color: #ff9924;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.welcome-text h4 {
+    color: #67778b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.welcome-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-image img {
+    width: 500px;
+    height: 500px;
+}
+
+

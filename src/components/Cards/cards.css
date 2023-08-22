@@ -1,0 +1,59 @@
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 6rem;
+}
+
+.card1{
+    width: 100%;
+    background-color: #FF9924;
+    border-radius: 0.7rem;
+    height: 250px;
+    padding: 1rem;
+
+}
+.card1 p{
+    font-size: 40px;
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.card2{
+    width: 100%;
+    margin: 1rem 3rem;
+    background-color: #1169FF;
+    border-radius: 0.7rem;
+    height: 250px;
+    padding: 1rem;
+}
+
+.card2 p{
+    font-size: 40px;
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.card3{
+    width: 100%;
+    background-color: #67778B;
+    border-radius: 0.7rem;
+    height: 250px;
+    padding: 1rem;
+}
+
+.card3 p{
+    font-size: 40px;
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}

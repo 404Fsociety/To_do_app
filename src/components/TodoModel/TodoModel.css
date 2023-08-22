@@ -1,0 +1,51 @@
+.todo_model {
+    background-color: #BFBFBF;
+    margin: 2rem 6rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: -6px 4px 15px -5px rgb(2, 2, 2); 
+}
+
+.todo_model-description{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(33, 30, 25);
+    text-align: left;
+    padding: 0rem 1rem;
+}
+
+.todo_model-description-undone{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(40, 37, 33);
+    text-align: left;
+    padding: 0rem 1rem;
+    text-decoration: line-through;
+}
+
+.todo_model-buttons{
+    flex: 0.29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider{
+    
+        background-color: rgba(100, 63, 21, 0.1);
+        margin: -0.5rem 25rem;
+        border-radius: 100px;
+        height: 1px;
+}
+
+

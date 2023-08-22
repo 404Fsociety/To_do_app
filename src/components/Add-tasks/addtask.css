@@ -1,0 +1,20 @@
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    margin: 2rem 6rem;
+    background: #4d4e53;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0px rgba(57, 56, 43, 0.621);
+}
+
+.add-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
